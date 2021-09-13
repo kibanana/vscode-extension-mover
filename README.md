@@ -1,7 +1,9 @@
 # VSCode Extension Mover
 [![Version](https://vsmarketplacebadge.apphb.com/version/yewon63.vscode-extension-mover.svg)](https://marketplace.visualstudio.com/items?itemName=yewon63.vscode-extension-mover)
 
-> Install vscode extensions again whenever new development environments are encountered
+> Install vscode extensions easily whenever you start to form a new development environment
+
+![example](./example.gif)
 
 ## Features
 
