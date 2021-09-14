@@ -7,8 +7,11 @@ export default async (param: SaveParam): Promise<boolean | undefined> => {
   try {
     const { commands } = param;
 
+    const currentDate = new Date();
+    const month = currentDate.getMonth() + 1;
+    
     const filename = await vscode.window.showInputBox({
-      value: 'extension-mover',
+      value: `extension-mover-${currentDate.getDate()}-${String(month).length === 1 && '0'}${month}-${currentDate.getFullYear()}`,
       placeHolder: 'Please enter a new text file name!',
       validateInput: function (input: string): null | string {
         return (/^[A-z0-9_.@()-]+/i).test(input) ? null : 'Invalid text file name rule!';
