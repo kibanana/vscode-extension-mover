@@ -11,8 +11,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.exporter",
-		"onCommand:extension.deletingHelper"
+		"onCommand:extension.exporter"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -20,10 +19,6 @@
 			{
 				"command": "extension.exporter",
 				"title": "Extension Mover: export all extensions (save as file or save to clipboard)"
-			},
-			{
-				"command": "extension.deletingHelper",
-				"title": "Extension Mover: help deleting all extensions"
 			}
 		]
 	},
