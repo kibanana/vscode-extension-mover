@@ -91,7 +91,7 @@ export function activate(context: vscode.ExtensionContext) {
                 return vscode.window.showErrorMessage(MESSAGE.IS_NOT_EXISTS);
             }
 
-            vscode.window.showInformationMessage('Please delete the directory yourself for accurate operation!');
+            vscode.window.showInformationMessage('Please delete the directory yourself for sure result!');
 
             setTimeout(() => {
                 open(extensionPath);

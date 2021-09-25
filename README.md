@@ -1,20 +1,18 @@
 # VSCode Extension Mover
+
 [![Version](https://vsmarketplacebadge.apphb.com/version/yewon63.vscode-extension-mover.svg)](https://marketplace.visualstudio.com/items?itemName=yewon63.vscode-extension-mover)
 
-> Install vscode extensions easily whenever you start to form a new development environment
+> Install vscode extensions easily using commands whenever you start to form a new development environment!
 
 ![example](./example.gif)
 
 ## Features
 
-### 1. Export all extensions (save as file or save to clipboard)
+**Export all extensions (save as file or save to clipboard)**
 
-> Get all vscode installation commands and enter them in other development environment!
+> Get vscode installation commands and enter them on terminal!  
+> and delete the vscode extension directory! (This extension only open it.)
 
-### 2. Help deleting all extensions
+## Settings
 
-> Please delete the directory where vscode extension's files is located!(I only open it.)
-
-
-## Extension Settings	
-All you have to do is this: [Install 'code' command in PATH](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
+All you prepare is this: [Install 'code' command in PATH](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
